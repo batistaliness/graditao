@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: palegreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rebeccapurple;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 20pt;
+    font-family: 'Shrikhand', cursive;
+}
+
+div{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin: 70px;
+}
+
+/* img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    width: 40%;
+} */
+
+#imgInvisivel{
+    display: none;
+}
+
+.imagens{
+    display: flex;
+}
